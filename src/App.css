@@ -3,6 +3,7 @@
   background-color: #1a202c;
   overflow: scroll;
   text-align: center;
+  color: #ffffff;
 }
 
 .container {
@@ -69,11 +70,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
   width: 100%;
-  bottom: 0;
-  left: 0;
-  padding-bottom: 45px;
+  margin: 50px 0;
 }
 
 .twitter-logo {
@@ -92,7 +90,7 @@
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   grid-gap: 1.5rem;
   justify-items: center;
-  margin: 0;
+  margin: 50px 0;
   padding: 0;
 }
 
@@ -111,7 +109,7 @@
   object-fit: cover;
 }
 
-.connected-container input[type='text'] {
+.connected-container input[type="text"] {
   display: inline-block;
   color: white;
   padding: 10px;
@@ -127,4 +125,12 @@
 
 .connected-container button {
   height: 50px;
+}
+
+.actions-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px
 }
